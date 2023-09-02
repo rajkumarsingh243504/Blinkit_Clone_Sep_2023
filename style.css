@@ -1,0 +1,224 @@
+*
+{
+  
+}
+.location>h5
+{
+color: rgb(0,0,0);
+font-weight: 800;
+margin-bottom: 6px;
+font-size: 18px;
+}
+.location>p
+{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+  
+}
+.mycart
+{
+    background-color: #0c831f !important;
+    color: white;
+    font-size: 14px !important;
+}
+/* provide vertical line in navbar */
+.verticalline
+{
+    height: 50px;
+    border: 1px solid gray;
+}
+  /* this is the funda to make scrollable image */
+  .my-container
+{
+  margin: auto;
+  width: 90%;
+  overflow-x:auto;
+}
+.my-list{
+    white-space: nowrap;
+}
+.my-list>img{
+    padding-inline: 10px;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+  /* scrollable image card  */
+
+.my-card{
+    width: 179px;
+    margin-inline: 10px;
+    
+}
+.my-card-time
+{
+    width: fit-content;
+    border-radius: 4px;
+    background-color: rgb(248,248,248);
+    padding: 0px 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54,54,54);
+}
+.my-card-title
+{
+    color: rgb(31,31,31,31);
+    font-weight: 600;
+    font-size: 13px;
+}
+.my-card-weight
+{
+    color: rgb(54,54,54);
+    font-size: 13px;
+}
+.card-price
+{
+    color: rgb(31,31,31,31);
+    font-weight: 600;
+    font-size: 12px; 
+    line-height: 11px;
+}
+.mrp
+{
+color: #666666;
+font-size: 12px;
+}
+.category-section
+{
+   width: 90%; 
+   margin: auto;
+  
+}
+.category-section-row
+{
+    width: 100%;
+    overflow-x:scroll;
+   
+}
+  
+/* Footer section */
+.my-footer
+{
+    width: 90%;
+    margin: auto;
+}
+.row1
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.useful-links
+{
+  flex: 2;
+}
+.categories-link
+{
+flex:3;
+}
+table
+{
+    width: 100%;
+}
+
+td
+{
+   padding: 3px 10px;
+   color: #666666;
+   font-size: 14px; 
+}
+.row2
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #bcbcbc;
+}
+.row2>p{
+    text-align: justify;
+    color: #666666;
+    font-size: 12px;
+    width: 35%;
+
+}
+.download-section>p{
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+}
+.download-btns
+{
+    background-color: #213b50;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.social-btn
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline:10px;
+}
+.social
+{
+    display: flex;
+}
+.row3
+{
+    margin-top: 10px;
+    text-align: justify;
+    color: #666666;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+.row4 span
+{
+    color: red;
+}
+h4
+{
+    text-shadow: 0px 0px 8px;
+}
+
+ /* make responsive by media query  */
+ @media screen and (max-width:768px)
+ {
+    nav , .row1 ,.row2
+    {
+        flex-direction: column !important;
+    }
+    
+    .vertical-line
+    {
+        display: none;
+    }
+    .paan-corner>img
+    {
+        display: none;
+    }
+    .row2>p,.search-div
+    {
+        width: 90%;
+    }
+    row1>div
+    {
+        margin-top:20px
+    }
+    
+ }
